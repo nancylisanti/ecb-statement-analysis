@@ -1,7 +1,7 @@
 # Intelligenza Artificiale e politica monetaria: un'analisi delle comunicazioni della BCE attraverso la text analysis
 
 ## Descrizione progetto 
-L'obbiettivo della ricerca è analizzare il contenuto delle conferenze stampa della Banca Centrale Europea (BCE) mediante l'utilizzo di strumenti di intelligenza artificiale e l'analisi del linguaggio utilizzato, al fine di costruire un indice in grado di sintetizzare l'orientamento della comunicazione di politica monetaria. Tale indice testuale è successivamente integrato in un modello econometrico, al fine di valutare se la comunicazione della BCE sia in grado di spiegare le successive decisioni relative ai tassi di interesse. 
+L'obbiettivo della ricerca è analizzare il contenuto delle conferenze stampa della Banca Centrale Europea (BCE) mediante l'utilizzo di strumenti di intelligenza artificiale e l'analisi del linguaggio utilizzato, al fine di costruire un indice in grado di sintetizzare l'orientamento della comunicazione di politica monetaria. Tale indice testuale è successivamente integrato in un modello econometrico, insieme a variabili macroeconomiche di controllo, al fine di valutarne la capacità predittiva rispetto alle successive decisioni della BCE relative ai tassi di interesse. 
 
 # Workflow del progetto 
 Il progetto è stato sviluppato nel seguente ordine:
