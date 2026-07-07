@@ -1,6 +1,7 @@
 from pathlib import Path
 import pandas as pd
 import statsmodels.api as sm
+import matplotlib.pyplot as plt
 
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 from statsmodels.stats.diagnostic import het_breuschpagan
@@ -25,6 +26,25 @@ print("\n==============================")
 print("MODELLO PRINCIPALE")
 print("==============================")
 print(model.summary())
+
+# ==========================
+# GRAFICO DEI RESIDUI
+# ==========================
+
+fitted_values = model.fittedvalues
+residuals = model.resid
+
+plt.figure()
+plt.scatter(fitted_values, residuals)
+plt.axhline(y=0, linestyle="--")
+plt.xlabel("Valori stimati")
+plt.ylabel("Residui")
+plt.title("Grafico dei residui - Modello principale")
+plt.tight_layout()
+plt.savefig("Residuals_Plot.png", dpi=300)
+plt.close()
+
+print("Residuals_Plot.png creato correttamente.")
 
 # ==========================
 # CONTROLLI DIAGNOSTICI

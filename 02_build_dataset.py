@@ -152,6 +152,8 @@ df = df.drop(columns=["month"])
 # Manteniamo solo la data (senza orario)
 df["date"] = df["date"].dt.date
 
+# Manteniamo solo le variabili utilizzate nella regressione 
+df = df[["date", "AI_Index", "MRO_Rate", "MRO_t2", "Delta_MRO", "Inflation", "Euribor_1M", "VSTOXX"]]
 df.to_excel("Dataset_Regressione_Finale.xlsx", index=False)
 
 print("Dataset_Regressione_Finale.xlsx creato correttamente.")
