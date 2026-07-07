@@ -54,32 +54,32 @@ L'analisi comprende:
 - Residuals_Plot.png
 
 ---------------
-## Variabili utilizzate 
-# Variabile indipendente 
+# Variabili utilizzate 
+## Variabile indipendente 
 - DeltaMRO
 
-# Variabile esplicativa principale
+## Variabile esplicativa principale
 - AI Index
 
-# Variabili di controllo
+## Variabili di controllo
 - Inflazione HICP 
 - Euribor a 1 mese
 - VSTOXX
 
 ---------------
-## Tecnologie utilizzate
-# Linguaggio di programmazione 
+# Tecnologie utilizzate
+## Linguaggio di programmazione 
 - Python
 
-# Librerie Python
+## Librerie Python
 - pandas
 - statsmodels
 - matplotlib
 
-# Software 
+## Software 
 - Microsoft Excel 
 - Git 
-# Piattaforma di versionamento
+## Piattaforma di versionamento
 - GitHub
 
 ---------------
