@@ -89,5 +89,7 @@ L'analisi comprende:
 Corso di Laurea Magistrale Finanza e Risk Management 
 Università di Parma
 
-## Riferimenti 
-Per l'elenco delle fonti bibliografiche e sitografiche utilizzate, si rimanda al file ['REFERENCES.md']
+## Documentazione del progetto
+- 'REFERENCES.md' - bibliografia e sitografia;
+- 'PROMPT_AI.md' - prompt utilizzato per la costruzione dell'AI Index;
+- 'PROJECT_REPORT.md' - descrizione completa del progetto, della metodologia e dei risultati ottenuti.
