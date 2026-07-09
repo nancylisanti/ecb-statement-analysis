@@ -2,6 +2,7 @@ from pathlib import Path
 import pandas as pd
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
+import scipy.stats as stats
 
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 from statsmodels.stats.diagnostic import het_breuschpagan
@@ -185,3 +186,47 @@ regression_table = pd.DataFrame({
 regression_table.to_excel("Regression_Table.xlsx")
 
 print("Regression_Table.xlsx creato correttamente.")
+
+# ==========================
+# Q-Q PLOT DEI RESIDUI
+# ==========================
+
+plt.figure()
+stats.probplot(residuals, dist="norm", plot=plt)
+plt.title("Q-Q Plot dei residui")
+plt.tight_layout()
+plt.savefig("QQ_Plot_Residuals.png", dpi=300)
+plt.close()
+
+print("QQ_Plot_Residuals.png creato correttamente.")
+
+# ==========================
+# OBSERVED VS PREDICTED
+# ==========================
+
+predicted = model.fittedvalues
+observed = y
+
+plt.figure(figsize=(6,6))
+plt.scatter(observed, predicted)
+
+# Retta di perfetta previsione
+min_val = min(observed.min(), predicted.min())
+max_val = max(observed.max(), predicted.max())
+
+plt.plot([min_val, max_val],
+         [min_val, max_val],
+         linestyle="--",
+         linewidth=1.5,
+         label="Retta di perfetta corrispondenza")
+
+plt.xlabel("ΔMRO osservato")
+plt.ylabel("ΔMRO stimato")
+plt.title("Valori osservati vs valori stimati")
+plt.legend()
+plt.tight_layout()
+
+plt.savefig("Observed_vs_Predicted.png", dpi=300)
+plt.close()
+
+print("Observed_vs_Predicted.png creato correttamente.")

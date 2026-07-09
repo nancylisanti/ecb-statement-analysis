@@ -72,9 +72,10 @@ L'analisi comprende:
 - Python
 
 ## Librerie Python
-- pandas
-- statsmodels
-- matplotlib
+- pandas: gestione e manipolazione del dataset;
+- statsmodels: stima dei modelli di regressione OLS e controlli diagnostici;
+- matplotlib: generazione dei grafici;
+- scipy: analisi statistica e costruzione del Q-Q Plot dei residui.
 
 ## Software 
 - Microsoft Excel 
