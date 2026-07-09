@@ -51,6 +51,7 @@ L'analisi comprende:
 - Q-Q Plot dei residui;
 - grafico "Observed vs Predicted";
 - tabella riassuntiva dei risultati.
+
 **Output:** 
 - Regression_Table.xlsx
 - Residuals_Plot.png
