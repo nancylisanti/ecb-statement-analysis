@@ -222,7 +222,7 @@ plt.plot([min_val, max_val],
 
 plt.xlabel("ΔMRO osservato")
 plt.ylabel("ΔMRO stimato")
-plt.title("Valori osservati vs valori stimati")
+plt.title("Observed vs Predicted")
 plt.legend()
 plt.tight_layout()
 
