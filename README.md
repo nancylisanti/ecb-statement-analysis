@@ -87,3 +87,6 @@ L'analisi comprende:
 **Nancy Lisanti**
 Corso di Laurea Magistrale Finanza e Risk Management 
 Università di Parma
+
+## Riferimenti 
+Per l'elenco delle fonti bibliografiche e sitografiche utilizzate, si rimanda al file ['REFERENCES.md']
