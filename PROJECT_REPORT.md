@@ -29,9 +29,7 @@ Infine, nel *Modello 4*, che include anche il VSTOXX, il coefficiente di regress
 Nel complesso, i risultati mostrano che l’AI Index presenta una relazione positiva con le successive variazioni del tasso MRO in tutte le specificazioni considerate. Tuttavia, l’introduzione delle variabili macroeconomiche e finanziarie riduce progressivamente sia l’entità del coefficiente di regressione sia la sua significatività statistica, suggerendo che parte dell’informazione contenuta nell’AI Index sia condivisa con gli indicatori macroeconomici tradizionalmente associati alle decisioni di politica monetaria della BCE. Nonostante ciò, il mantenimento di un coefficiente positivo in tutti i modelli rappresenta un’indicazione che l’indice costruito mediante intelligenza artificiale potrebbe contenere informazione aggiuntiva, aspetto che richiederebbe tuttavia ulteriori verifiche su un campione più ampio.
 
 ## Controlli diagnostici del modello
-## Sintesi dei controlli diagnostici
-
-| Controllo | Perché è stato eseguito | Esito nel nostro studio |
+| Controllo | Perché è stato eseguito | Esito |
 |------------|-------------------------|-------------------------|
 | Matrice di correlazione | Verificare l'eventuale presenza di relazioni lineari elevate tra le variabili esplicative. | Sono emerse alcune correlazioni relativamente elevate, ma nessuna relazione perfetta tra le variabili. |
 | Variance Inflation Factor (VIF) | Valutare la presenza di multicollinearità tra le variabili esplicative. | Tutti i valori risultano inferiori alla soglia critica di 10. Il valore più elevato è associato all'inflazione (VIF ≈ 8,21), senza compromettere la stima del modello. |
