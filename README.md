@@ -48,10 +48,14 @@ L'analisi comprende:
 - errori standard robusti HC3;
 - test di Breusch-Pagan;
 - modelli alternativi di regressione; 
+- Q-Q Plot dei residui;
+- grafico "Observed vs Predicted";
 - tabella riassuntiva dei risultati.
 **Output:** 
 - Regression_Table.xlsx
 - Residuals_Plot.png
+- QQ_Plot_Residuals.png
+- Observed_vs_Predicted.png
 
 ---------------
 # Variabili utilizzate 
